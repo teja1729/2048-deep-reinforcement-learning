@@ -49,6 +49,19 @@ Reinforcement learning (RL) is an area of machine learning inspired by behaviour
 
 ## Game Outcome:
 
-<p align = "center">
-<img src = "https://github.com/navjindervirdee/2048-deep-reinforcement-learning/blob/master/Game%20Outcomes/Outcome.JPG?raw=true">
-</p>
+The following is the result of 100K games played by the neural network
+
+|max tile| % of games| accumulated %| reversed accumulated %| 
+|--------|-----------|--------------|---------|
+|16384   | 0.177%    |        0.177%|100.000%|
+|8192    |34.500%    |       34.677%| 99.823%|
+|4096    |43.819%    |       78.496%| 65.323%|
+|2048    |15.656%    |       94.152%| 21.504%|
+|1024    | 4.340%    |       98.492%|  5.848%|
+|512     | 1.144%    |       99.636%|  1.508%|
+|256     | 0.261%    |       99.897%|  0.364%|
+|128     | 0.064%    |       99.961%|  0.103%|
+|64      | 0.026%    |       99.987%|  0.039%|
+|32      | 0.007%    |       99.994%|  0.013%|
+|16      | 0.005%    |       99.999%|  0.006%|
+|8       | 0.001%    |      100.000%|  0.001%|
